@@ -3,6 +3,9 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getUsers() {
-    return '2';
+    return 'get';
+  }
+  postUsers() {
+    return 'post';
   }
 }
